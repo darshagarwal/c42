@@ -5,3 +5,6 @@ html, body {
 canvas {
   display: block;
 }
+      element {
+            transform: rotate(90deg);
+        }

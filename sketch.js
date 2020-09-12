@@ -36,50 +36,62 @@ function setup() {
   twelve = createSprite(150,5,0,0);
   twelve.scale = 0.3;
   twelve.addImage(twelveImg);
+  twelve.rotation = 90;
 
   one = createSprite(130,75,0,0);
   one.scale = 0.3;
   one.addImage(oneImg);
+  one.rotation = 90;
 
   two = createSprite(80,130,0,0);
   two.scale = 0.3;
   two.addImage(twoImg);
+  two.rotation = 90;
 
   three = createSprite(0,150,0,0);
   three.scale = 0.3;
   three.addImage(threeImg); 
+  three.rotation = 90;
 
   four = createSprite(-80,150,0,0);
   four.scale = 0.3;
   four.addImage(fourImg); 
+  four.rotation = 90;
 
   five = createSprite(-130,80,0,0);
   five.scale = 0.3;
   five.addImage(fiveImg); 
+  five.rotation = 90;
 
   six = createSprite(-160,5,0,0);
   six.scale = 0.3;
   six.addImage(sixImg); 
+  six.rotation = 90;
  
   seven = createSprite(-130,-80,0,0);
   seven.scale = 0.3;
   seven.addImage(sevenImg); 
+  seven.rotation = 90;
 
   eight = createSprite(-80,-140,0,0);
   eight.scale = 0.3;
   eight.addImage(eightImg); 
+  eight.rotation = 90;
 
   nine = createSprite(0,-160,0,0);
   nine.scale = 0.3;
   nine.addImage(nineImg); 
+  nine.rotation = 90;
 
   ten = createSprite(80,-140,0,0);
   ten.scale = 0.3;
   ten.addImage(tenImg); 
+  ten.rotation = 90;
 
   eleven = createSprite(135,-80,0,0);
   eleven.scale = 0.3;
   eleven.addImage(elevenImg); 
+  eleven.rotation = 90;
 
 }
 
